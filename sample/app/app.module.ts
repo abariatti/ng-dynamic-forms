@@ -29,8 +29,8 @@ import { NGBootstrapSampleFormComponent } from "./ui-ng-bootstrap/ng-bootstrap-s
 import { PrimeNGSampleFormComponent } from "./ui-primeng/primeng-sample-form.component";
 
 import { ValidationMessageComponent } from "./validation-message/validation-message.component";
-import { AppRoutingModule } from './app.routing.module';
-import { AppComponent } from './app.component';
+import { AppRoutingModule } from "./app.routing.module";
+import { AppComponent } from "./app.component";
 import {
     customValidator,
     customDateRangeValidator,
