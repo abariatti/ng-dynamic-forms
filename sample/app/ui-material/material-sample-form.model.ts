@@ -14,6 +14,7 @@ export const MATERIAL_SAMPLE_FORM_MODEL = [
     new DynamicFormGroupModel({
 
         id: "stay",
+        legend: "Stay",
         group: [
             new DynamicDatePickerModel({
 
@@ -39,6 +40,7 @@ export const MATERIAL_SAMPLE_FORM_MODEL = [
     new DynamicFormGroupModel({
 
         id: "room",
+        legend: "Room",
         group: [
             new DynamicSelectModel<string>({
 
@@ -140,6 +142,7 @@ export const MATERIAL_SAMPLE_FORM_MODEL = [
     new DynamicFormGroupModel({
 
         id: "addressStreet",
+        legend: "Address Street",
         group: [
 
             new DynamicInputModel({
@@ -157,6 +160,7 @@ export const MATERIAL_SAMPLE_FORM_MODEL = [
     new DynamicFormGroupModel({
 
         id: "addressLocation",
+        legend: "Address Location",
         group: [
             new DynamicInputModel({
 
@@ -169,7 +173,7 @@ export const MATERIAL_SAMPLE_FORM_MODEL = [
                 id: "state",
                 hint: "Autocomplete",
                 placeholder: "State",
-                list: ['Alabama', 'Alaska', 'American Samoa', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Federated States of Micronesia', 'Florida', 'Georgia', 'Guam', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Marshall Islands', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Northern Mariana Islands', 'Ohio', 'Oklahoma', 'Oregon', 'Palau', 'Pennsylvania', 'Puerto Rico', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virgin Island', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming']
+                list: ["Alabama", "Alaska", "American Samoa", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "District of Columbia", "Federated States of Micronesia", "Florida", "Georgia", "Guam", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Marshall Islands", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Northern Mariana Islands", "Ohio", "Oklahoma", "Oregon", "Palau", "Pennsylvania", "Puerto Rico", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virgin Island", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
             }),
 
             new DynamicInputModel({
