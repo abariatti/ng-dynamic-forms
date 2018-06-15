@@ -11,7 +11,8 @@ import {
     MatRadioModule,
     MatSelectModule,
     MatSliderModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatDividerModule
 } from "@angular/material";
 import { TextMaskModule } from "angular2-text-mask";
 import { DynamicFormsCoreModule } from "@ng-dynamic-forms/core";
@@ -43,6 +44,7 @@ import { DynamicMaterialTextAreaComponent } from "./textarea/dynamic-material-te
         MatSelectModule,
         MatSliderModule,
         MatSlideToggleModule,
+        MatDividerModule,
         TextMaskModule,
         DynamicFormsCoreModule
     ],
